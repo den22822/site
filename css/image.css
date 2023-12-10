@@ -1,0 +1,36 @@
+body{
+	background-color: lightskyblue;
+	background-image: url(https://i.gifer.com/XOsX.gif) ;
+	background-size: 200px;
+	background-repeat: no-repeat;
+	background-position: 100% 100%;
+	background-attachment: fixed;
+}
+p{
+	font-size: 1in;
+	color: orange;
+	background-image: url(https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DdzJvuswZ5ys&psig=AOvVaw1nl-fB380W12TCYVD32YQU&ust=1695637348065000&source=images&cd=vfe&opi=89978449&ved=0CBIQjhxqFwoTCOjJmL2Dw4EDFQAAAAAdAAAAABAE);
+background-size: cover;
+}
+div{
+	width: 500%;
+	height:500%;
+}
+.d1{
+	background-image: url(https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.reddit.com%2Fr%2FMineImator%2Fcomments%2F136sn1s%2Fthe_alan_becker_stick_figures%2F&psig=AOvVaw1nl-fB380W12TCYVD32YQU&ust=1695637348065000&source=images&cd=vfe&opi=89978449&ved=0CBIQjhxqFwoTCOjJmL2Dw4EDFQAAAAAdAAAAABAd);
+background-size: cover;
+}
+.img1{
+	width: 50%;
+	margin: auto;
+	display: block;
+	border-radius: 50%;
+	box-shadow: 20px -20px 50px purple;
+}
+.img2{
+	width: 50px;
+	border: ridge 20px fuchsia;
+}
+.d2{                 
+	
+}

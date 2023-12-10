@@ -1,0 +1,192 @@
+body {
+	background-color: darkred;
+}
+p {
+	color: lightblue;
+	background-color: black;
+	font-size: 50px;
+}
+div{
+	width: 100px;
+	height: 100px;
+	background-color: red;
+}
+.d1{
+	animation-name: Youtube1;
+	animation-duration: 3s;
+}
+@keyframes Youtube1{
+	0%{background-color: red;}
+	25%{background-color: white;}
+	50%{background-color: lightblue;}
+	75%{background-color: darkgreen;}
+	100%{background-color: lightgoldenrodyellow;}
+}	
+.d2{
+	animation-name: Youtube2;
+	animation-duration: 3s;
+}
+@keyframes Youtube2{
+	0%{background-color: red;}
+	25%{background-color: white;}
+	50%{background-color: lightblue;}
+	75%{background-color: darkgreen;}
+	100%{background-color: lightgoldenrodyellow;}
+}
+.d3{
+	animation-name: Youtube3;
+	animation-duration: 3s;
+	position: relative;
+}
+@keyframes Youtube3{
+	0%{background-color: red; left: 0px; top: 0px;}
+	25%{background-color: white; left: 200px; top: 0px;}
+	50%{background-color: lightblue; left: 200px; top: 200px;}
+	75%{background-color: darkgreen; left: 0px; top: 200px;}
+	100%{background-color: lightgoldenrodyellow; left: 0px; top: 0px;}
+}
+.d4{
+	animation-name: Youtube4;
+	animation-duration: 3s;
+	position: relative;
+}
+@keyframes Youtube4{
+	0%{background-color: red; left: 0px; top: 0px;}
+	25%{background-color: white; left: 200px; top: 0px;}
+	50%{background-color: lightblue; left: 200px; top: 200px;}
+	75%{background-color: darkgreen; left: 0px; top: 200px;}
+	100%{background-color: lightgoldenrodyellow; left: 0px; top: 0px;}
+}
+.d5{
+	animation-name: Youtube3;
+	animation-duration: 3s;
+	position: relative;
+}
+@keyframes Youtube5{
+	0%{background-color: red; left: 0px; top: 0px;}
+	25%{background-color: white; left: 200px; top: 0px;}
+	50%{background-color: lightblue; left: 200px; top: 200px;}
+	75%{background-color: darkgreen; left: 0px; top: 200px;}
+	100%{background-color: lightgoldenrodyellow; left: 0px; top: 0px;}
+}
+.d6{
+	animation-name: Youtube6;
+	animation-duration: 3s;
+	animation-delay: -2s;
+	position: relative;
+}
+@keyframes Youtube6{
+	0%{background-color: red; left: 0px; top: 0px;}
+	25%{background-color: white; left: 200px; top: 0px;}
+	50%{background-color: lightblue; left: 200px; top: 200px;}
+	75%{background-color: darkgreen; left: 0px; top: 200px;}
+	100%{background-color: lightgoldenrodyellow; left: 0px; top: 0px;}
+}
+.d7{
+	animation-name: Youtube7;
+	animation-duration: 3s;
+	position: relative;
+	animation-delay: 2s;
+	animation-iteration-count: infinite;
+}
+@keyframes Youtube7{
+	0%{background-color: red; left: 0px; top: 0px;}
+	25%{background-color: white; left: 200px; top: 0px;}
+	50%{background-color: lightblue; left: 200px; top: 200px;}
+	75%{background-color: darkgreen; left: 0px; top: 200px;}
+	100%{background-color: lightgoldenrodyellow; left: 0px; top: 0px;}
+}
+.d8{
+	animation-name: Youtube8;
+	animation-duration: 3s;
+	position: relative;
+	animation-delay: 2s;
+	animation-iteration-count: infinite;
+	animation-direction: reverse;
+}
+@keyframes Youtube8{
+	0%{background-color: red; left: 0px; top: 0px;}
+	25%{background-color: white; left: 200px; top: 0px;}
+	50%{background-color: lightblue; left: 200px; top: 200px;}
+	75%{background-color: darkgreen; left: 0px; top: 200px;}
+	100%{background-color: lightgoldenrodyellow; left: 0px; top: 0px;}
+}
+.d9{
+	animation-name: Youtube9;
+	animation-duration: 3s;
+	position: relative;
+	animation-delay: 2s;
+	animation-iteration-count: infinite;
+	animation-direction: altenate;
+}
+@keyframes Youtube9{
+	0%{background-color: red; left: 0px; top: 0px;}
+	25%{background-color: white; left: 200px; top: 0px;}
+	50%{background-color: lightblue; left: 200px; top: 200px;}
+	75%{background-color: darkgreen; left: 0px; top: 200px;}
+	100%{background-color: lightgoldenrodyellow; left: 0px; top: 0px;}
+}
+.d11{
+	animation-name: Youtube11;
+	animation-duration: 3s;
+	position: relative;
+	animation-delay: 2s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate-reverse;
+	animation-timing-function: ease;
+}
+@keyframes Youtube11{
+	0%{background-color: red; left: 0px; top: 0px;}
+	25%{background-color: white; left: 200px; top: 0px;}
+	50%{background-color: lightblue; left: 200px; top: 200px;}
+	75%{background-color: darkgreen; left: 0px; top: 200px;}
+	100%{background-color: lightgoldenrodyellow; left: 0px; top: 0px;}
+}
+.d12{
+	animation-name: Youtube12;
+	animation-duration: 3s;
+	position: relative;
+	animation-delay: 2s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate-reverse;
+	animation-timing-function: ease-in;
+}
+@keyframes Youtube12{
+	0%{background-color: red; left: 0px; top: 0px;}
+	25%{background-color: white; left: 200px; top: 0px;}
+	50%{background-color: lightblue; left: 200px; top: 200px;}
+	75%{background-color: darkgreen; left: 0px; top: 200px;}
+	100%{background-color: lightgoldenrodyellow; left: 0px; top: 0px;}
+}
+.d13{
+	animation-name: Youtube13;
+	animation-duration: 3s;
+	position: relative;
+	animation-delay: 2s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate-reverse;
+	animation-timing-function: ease-out;
+}
+@keyframes Youtube13{
+	0%{background-color: red; left: 0px; top: 0px;}
+	25%{background-color: white; left: 200px; top: 0px;}
+	50%{background-color: lightblue; left: 200px; top: 200px;}
+	75%{background-color: darkgreen; left: 0px; top: 200px;}
+	100%{background-color: lightgoldenrodyellow; left: 0px; top: 0px;}
+}
+.d14{
+	animation-name: Youtube14;
+	animation-duration: 3s;
+	position: relative;
+	animation-delay: 2s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate-reverse;
+	animation-timing-function: ease-in-out;
+}
+@keyframes Youtube14{
+	0%{background-color: red; left: 0px; top: 0px;}
+	25%{background-color: white; left: 200px; top: 0px;}
+	50%{background-color: lightblue; left: 200px; top: 200px;}
+	75%{background-color: darkgreen; left: 0px; top: 200px;}
+	100%{background-color: lightgoldenrodyellow; left: 0px; top: 0px;}
+}
